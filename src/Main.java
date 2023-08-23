@@ -118,7 +118,7 @@ public class Main {
             winner = checkWinner(boardChars, playerO);
 
             if (winner) {
-                System.out.println("Player Y wins.");
+                System.out.println("Player O wins.");
             }
 
             if (!Arrays.asList(boardChars).contains(" ")) {
